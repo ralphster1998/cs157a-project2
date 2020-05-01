@@ -42,33 +42,33 @@ insert into home_incident values ('13020201',
                                   '90205501',
                                   '2010-01-31 09:10:00.125'); 
 
-insert into incidents ('10000001', -- incident_id
-                      5, -- num_incidents
+insert into incidents values ('10000001', -- incident_id
+                      '5', -- num_incidents
 		      '123 1st Street, New York, NY 95023'
    );
-insert into incidents ('10200501', -- incident_id
-                      10, -- num_incidents
+insert into incidents values ('10200501', -- incident_id
+                      '10', -- num_incidents
 		      '578 5th Street, Boston, MA 91021'
    );
-insert into incidents ('11242501', -- incident_id
-                      2, -- num_incidents
+insert into incidents values ('11242501', -- incident_id
+                      '2', -- num_incidents
 		      '5492 10th Street, San Jose, CA 95123'
    );
-insert into incidents ('62220401', -- incident_id
-                      14, -- num_incidents
+insert into incidents values ('62220401', -- incident_id
+                      '14', -- num_incidents
 		      '696 4th Street, Austin, TX 62021'
    );
-insert into incidents ('80230421', -- incident_id
-                      53, -- num_incidents
+insert into incidents values ('80230421', -- incident_id
+                      '53', -- num_incidents
 		      '949 18th Street, Raleigh, CA 92121'
 			
    );
-insert into incidents ('94102501', -- incident_id
-                      23, -- num_incidents
+insert into incidents values ('94102501', -- incident_id
+                      '23', -- num_incidents
 		      '239 6th Street, Hollywood, CA 92921'
    );
-insert into incidents ('90205501', -- incident_id
-                      2, -- num_incidents
+insert into incidents values ('90205501', -- incident_id
+                      '2', -- num_incidents
 		     '475 19th Street, Disneyland, CA 91021'	      
    );
 

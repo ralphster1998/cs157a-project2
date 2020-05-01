@@ -21,7 +21,7 @@ create table home_incident
 
 create table incidents(
      incident_id	varchar(8)             not null,
-     num_incidents      integer(3)           not null,
+     num_incidents  unsigned numeric(2,0)           not null,
 	 home_address   varchar(50)            not null,
 	 primary key (incident_id),
      foreign key(home_address) references home    
@@ -50,7 +50,7 @@ create table home (
 
 	home_id varchar(8) not null,
 	policy_id varchar(14) not null,
-	home_address varchar(50),
+	home_address varchar(50) not null,
 	start_date DATE not null,
 	end_date DATE not null,
 	foreign key(policy_id) references policy 
