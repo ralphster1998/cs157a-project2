@@ -63,11 +63,11 @@ create table home (
 create table customer(
 
 	customer_id varchar(8) not null,
-	name varchar(20) not null,
+	owner_name varchar(20) not null,
 	address varchar (50) not null,
 	phone_number char (10) not null,
 	primary key(customer_id),
-	foreign key(name) references owner_name 
+	foreign key(owner_name) references policy_owner 
 				on delete cascade,
 	foreign key(address) references home_incident on delete cascade	
 );
