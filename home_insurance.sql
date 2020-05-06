@@ -3,7 +3,7 @@ create table home_incident
 	 home_address	varchar(50) not null,
 	 owner_name     varchar(20) not null,
      incident_id    varchar(8)  not null,
-     incident_date  text    not null,
+     incident_date  Date    not null,
 	 primary key (home_id),
      foreign key(incident_id)   references
                                 incidents       
@@ -71,6 +71,19 @@ create table customer(
 				on delete cascade,
 	foreign key(address) references home_incident on delete cascade	
 );
+
+create table payment(
+	payment_id varchar(8) not null,
+	policy_id varchar(8) not null,
+	customer_id varchar(8) not null,
+	payment_date Date not null,
+	due_date Date not null,
+	coverage_period_months int not null,
+	transaction_type varchar(8) not null,
+	amount numeric(10,2) not null,
+	primary key (payment_id, policy_id, customer_id, payment_date, due_date, coverage_period_months
+				, transaction_type, amount)
+)
 
 
 

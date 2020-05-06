@@ -16,7 +16,7 @@ insert into home_incident values ('10020001',
                                   'Mary Poppins',
                                   '10200501',
                                   '2010-01-31 09:10:00.125');
-insert into home_incident values (10730101,
+insert into home_incident values ('10730101',
                                   '5492 10th Street, San Jose, CA 95123',
                                   'Arij Kana',
                                   '11242501',
