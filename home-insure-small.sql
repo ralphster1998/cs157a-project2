@@ -91,7 +91,7 @@ insert into policy_owner values ('asdf123456700','Arij Kana');
 insert into policy_owner values ('qwer123456000','Mufasa King');
 insert into policy_owner values ('zxcv123450000','Keanu Reeves');
 insert into policy_owner values ('qwdv123000000','Lebron James');
-insert into policy_owner values ('ujmn567895432','Mary Poppins');
+insert into policy_owner values ('ujmn567895432','Mary Balotelli');
 
 
 
@@ -142,6 +142,14 @@ insert into customer values('lfme423a','Mario Balotelli', '444 14th Street, San 
 insert into customer values('grgdfedd','Virgil Van Dijk', '563 11th Street, Santa Clara, CA 95192', '885-335-3768');
 
 insert into customer values('uehdnkdm','Mario Balotelli', '577 34th Street, Manassas, VA 44457', '885-335-3768');
+
+insert into payment values('abcd123456789','3fsfefdf','2010-08-21','2010-08-21','12','card','Harry Potter','1000000');
+insert into payment values('asdf123456700','3jrlfl9o','2012-03-21','2012-03-21','12','card','Arij Kana','150000');
+insert into payment values('efgd123456780','afd5edrf','2005-08-21','2005-08-21','6','card','Mary Poppins','400000');
+insert into payment values('qwdv123000000','lojd93j6','2020-11-21','2020-11-21','3','card','Lebron James','10090');
+insert into payment values('qwer123456000','j9or5tio','2013-08-21','2013-08-21','6','card','Mufasa King','50050');
+insert into payment values('ujmn567895432','lfme423a','2014-06-22','2014-06-22','6','card','Mary Balotelli','7000');
+insert into payment values('zxcv123450000','lojh8uri','2021-08-21','2021-08-21','3','card','Keanu Reeves','1000');
 
 
                                                                                                                                                                                                  
