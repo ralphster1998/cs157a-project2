@@ -42,7 +42,6 @@ create table policy (
 create table policy_owner (
 	policy_id varchar(14) not null primary key,
 	owner_name varchar(20) not null,
-	primary key (policy_id),
 	foreign key(policy_id) references policy
         			on delete cascade
 );
