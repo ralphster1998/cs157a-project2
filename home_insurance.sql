@@ -12,11 +12,11 @@ create table home_incident
     foreign key(owner_name)     references
                                 policy_owner      
                                 on delete
-                                set null,
+                                cascade,
     foreign key(home_id, home_address)     references
                                 policy_owner      
                                 on delete
-                                set null
+                                cascade
 	);
 
 create table incidents(
@@ -26,7 +26,7 @@ create table incidents(
 	 primary key (incident_id),
      foreign key(home_address) references home    
                                on delete
-                               set null
+                               cascade
  );
 
 
@@ -54,7 +54,7 @@ create table home (
 	start_date DATE not null,
 	end_date DATE not null,
 	foreign key(policy_id) references policy 
-         			on delete set null,
+         			on delete cascade,
 	primary key (home_id, policy_id)	
 );
 

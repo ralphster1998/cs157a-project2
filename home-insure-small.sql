@@ -143,8 +143,10 @@ insert into customer values('grgdfedd','Virgil Van Dijk', '563 11th Street, Sant
 
 insert into customer values('uehdnkdm','Mario Balotelli', '577 34th Street, Manassas, VA 44457', '885-335-3768');
 
+--payment(payment_id, customer_id, policy_id, home_id, due_date, amount, coverage_time_period) 
 insert into payment values('abcd123456789','3fsfefdf','2010-08-21','2010-08-21','12','card','Harry Potter','1000000');
 insert into payment values('asdf123456700','3jrlfl9o','2012-03-21','2012-03-21','12','card','Arij Kana','150000');
+insert into payment values('efgd123456780','afd5edrf','2005-08-21','2005-08-21','6','card','Mary Poppins','400000');
 insert into payment values('efgd123456780','afd5edrf','2005-08-21','2005-08-21','6','card','Mary Poppins','400000');
 insert into payment values('qwdv123000000','lojd93j6','2020-11-21','2020-11-21','3','card','Lebron James','10090');
 insert into payment values('qwer123456000','j9or5tio','2013-08-21','2013-08-21','6','card','Mufasa King','50050');
