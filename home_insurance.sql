@@ -34,13 +34,15 @@ create table policy (
 	policy_id varchar(14) not null,
 	type_of  varchar(30) not null,
 	policy_amount unsigned numeric(10,2) check(policy_amount > 0 ),
-	policy_coverage varchar(5) not null
+	policy_coverage varchar(5) not null,
+	primary key (policy_id,policy_amount,policy_coverage),
 );
 
 
 create table policy_owner (
 	policy_id varchar(14) not null primary key,
 	owner_name varchar(20) not null,
+	primary key (policy_id),
 	foreign key(policy_id) references policy
         			on delete cascade
 );
